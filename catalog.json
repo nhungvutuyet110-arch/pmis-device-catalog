@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:24.494Z",
+  "updatedAt": "2026-07-10T09:39:30.461Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -910,88 +910,6 @@
     {
       "deviceType": "Recloser",
       "templates": [
-        {
-          "id": "pmis-8936c0322a210a16",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho Recloser (22kV) hoặc (35kV) trung thế tùy theo cấp điện áp"
-            },
-            {
-              "name": "Môi trường dập hồ quang",
-              "value": "Chân không"
-            },
-            {
-              "name": "Số chế tạo",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Có chức năng điều khiển xa",
-              "value": "Có"
-            },
-            {
-              "name": "Kiểu recloser",
-              "value": "OSM27 - Re 22kV\nOSM38 - Re 35kV\""
-            },
-            {
-              "name": "Tần số định mức",
-              "value": "50"
-            },
-            {
-              "name": "Điện áp chịu xung sét",
-              "value": "125 - Re 22kV\n190 - Re 35kV\""
-            },
-            {
-              "name": "Dòng cắt ngắn mạch định mức",
-              "value": "12 - Re 22kV\n12,5 - Re 35kV"
-            },
-            {
-              "name": "Điện áp định mức",
-              "value": "24 - Re 22kV\n38,5 - Re 35kV"
-            },
-            {
-              "name": "I định mức",
-              "value": "630"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Số lần đóng/cắt định mức",
-              "value": "2000"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Đường dây"
-            }
-          ]
-        },
         {
           "id": "pmis-c87c4479",
           "name": "Recloser",
