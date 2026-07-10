@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:11.406Z",
+  "updatedAt": "2026-07-10T09:39:18.003Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -851,56 +851,6 @@
             {
               "name": "Tiết diện dây dẫn",
               "value": "150"
-            }
-          ]
-        },
-        {
-          "id": "pmis-a19599b0f1aba274",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
-            },
-            {
-              "name": "Chiều dài",
-              "value": "để nguyên"
-            },
-            {
-              "name": "I định mức",
-              "value": "ACSR-150/24 (440)"
-            },
-            {
-              "name": "Chủng loại dây dẫn",
-              "value": "Chọn trong hộp box theo chủng loại dây đang xét\n(ví dụ ACSR-150)"
-            },
-            {
-              "name": "Tiết diện dây dẫn",
-              "value": "Chọn trong hộp box theo chủng loại dây đang xét\n(ví dụ 150)"
-            },
-            {
-              "name": "Hảng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)\n\nAC150 - Trường Thịnh"
             }
           ]
         }
