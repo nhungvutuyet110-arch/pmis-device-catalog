@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:59.841Z",
+  "updatedAt": "2026-07-10T09:39:05.427Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -557,100 +557,6 @@
             {
               "name": "Có chức năng điều khiển xa",
               "value": "Không - đối với dao cách ly thường (tên dao cách ly là CD….)\nó - với dao cách ly là LBS (tên dao cách ly LBS…)"
-            }
-          ]
-        },
-        {
-          "id": "pmis-6bf50b1effb66bab",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho dao cách ly 35kV hoặc 22kV tùy theo cấp điện áp"
-            },
-            {
-              "name": "Phân loại",
-              "value": "Biên bản thí nghiệm\nCách ly - đối với dao cách ly thường\nSOG - với dao cách ly là LBS"
-            },
-            {
-              "name": "Có chức năng điều khiển xa",
-              "value": "Không - đối với dao cách ly thường (tên dao cách ly là CD….)\nó - với dao cách ly là LBS (tên dao cách ly LBS…)"
-            },
-            {
-              "name": "Số pha",
-              "value": "3"
-            },
-            {
-              "name": "Kiểu dao cách ly",
-              "value": "kiểu hở"
-            },
-            {
-              "name": "I cắt ngắn mạch định mức",
-              "value": "12 - Dao cách ly 22kV\n12,5 - Dao cách ly 35kV"
-            },
-            {
-              "name": "Loại cách điện",
-              "value": "Tùy theo thực tế ảnh GIS để chọn trong box"
-            },
-            {
-              "name": "Kiểu thao tác",
-              "value": "Cơ khí"
-            },
-            {
-              "name": "Môi trường dập HQ",
-              "value": "Không có - đối với dao cách ly thường\nChân không - với dao cách ly là LBS"
-            },
-            {
-              "name": "Điện áp chịu xung sét",
-              "value": "125 - Dao cách ly 22kV\n190 - Dao cách ly 35kV"
-            },
-            {
-              "name": "Cơ cấu chuyển động",
-              "value": "Chém ngang"
-            },
-            {
-              "name": "Dòng chịu ngắn mạch định mức",
-              "value": "25 - Dao cách ly 22kV\n36 - Dao cách ly 35kV"
-            },
-            {
-              "name": "U định mức",
-              "value": "24 - Dao cách ly 22kV\n36 - Dao cách ly 35kV"
-            },
-            {
-              "name": "Dòng định mức",
-              "value": "630"
-            },
-            {
-              "name": "Tần số định mức",
-              "value": "50"
-            },
-            {
-              "name": "Hảng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)\n\nCD: Lê Gia\n\nLBS: ShinShung/EN TECH"
             }
           ]
         }
