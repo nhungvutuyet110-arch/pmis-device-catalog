@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:47.565Z",
+  "updatedAt": "2026-07-10T09:39:54.391Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -1271,85 +1271,6 @@
             {
               "name": "Điện dung của 1 tụ điện",
               "value": "100- Tụ 22kV\n123 - Tụ 35kV\""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Tụ bù 0,4kV",
-      "templates": [
-        {
-          "id": "pmis-1dac01beacf2d963",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Ngày lắp đặt",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Chế độ vận hành",
-              "value": "Cố định"
-            },
-            {
-              "name": "Kiểu bù",
-              "value": "Bù tự động"
-            },
-            {
-              "name": "Số lượng",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "U định mức",
-              "value": "450"
-            },
-            {
-              "name": "Dung lượng",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Số bước bù",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Điện áp chịu xung sét",
-              "value": "2"
-            },
-            {
-              "name": "Tiêu chuẩn chế tạo",
-              "value": "IEC"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Trên đường dây với tụ trên cột hạ thế, Tại trạm với tụ ở trạm"
-            },
-            {
-              "name": "Độ cao lắp đặt",
-              "value": "4 với tụ trên cột\n1 với tụ tại TBA"
             }
           ]
         }
