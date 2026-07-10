@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:36.046Z",
+  "updatedAt": "2026-07-10T09:38:59.841Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -510,60 +510,6 @@
             {
               "name": "Vật liệu cột",
               "value": "Dự ứng lực\nBê tông cốt thép"
-            }
-          ]
-        },
-        {
-          "id": "pmis-b4cc41e3ea3a1417",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Ngày lắp đặt",
-              "value": "Ko có trên Pmis"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Ko có trên Pmis"
-            },
-            {
-              "name": "Kiểu cột",
-              "value": "Bản vẽ hoàn công (PC...-chọn Cột BTLT\n2 PC - chọn cột Cột kép 2LT)"
-            },
-            {
-              "name": "Mã hiệu cột điện",
-              "value": "PC"
-            },
-            {
-              "name": "Chiều cao",
-              "value": "bản vẽ hoàn công (PC..20 thì chiều cao là 20)"
-            },
-            {
-              "name": "Vật liệu cột",
-              "value": "Dự ứng lực"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị), cần bổ sung vào danh mục"
             }
           ]
         }
