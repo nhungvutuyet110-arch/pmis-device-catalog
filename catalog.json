@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:40:07.663Z",
+  "updatedAt": "2026-07-10T09:40:13.242Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -1661,52 +1661,6 @@
             {
               "name": "Hãng sản xuất",
               "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
-            }
-          ]
-        },
-        {
-          "id": "pmis-bba21709ebd4f900",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Loại xà",
-              "value": "Bản vẽ hoàn công hoặc chứng nhận xuất xưởng\nGhế thao tác, thang trèo, xà đỡ cầu dao, xà đỡ ghế: Xà đỡ thẳng\nXĐ....-2M: xà đỡ thẳng 2 mạch\nXN....-2M: xà néo 2 mạch\nXà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Chiều dài xà",
-              "value": "Bản vẽ hoàn công\nXà XĐ-3T-2M: 2.10\nXà XN-3T-2M: 2.10\nXà XNN-3T-2M: 3.10\nXà XNN-3T-2M-CB: 2.57\nXNĐ-3T-2M-CB: 2.50\nXà cầu dao XCD-22-D: 1.84\nXà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ: 1.35\nXà đỡ ghế, xà đỡ thang trèo: 1.64\nGhế thao tác: 3.12\nThang trèo: 3.0"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "Hồ sơ\nXà XĐ-3T-2M: 222.92\nXà XN-3T-2M: 221.89\nXà XNN-3T-2M: 371.83\nXà XNN-3T-2M-CB: 305.61\nXNĐ-3T-2M-CB: 402.73\nXà cầu dao XCD-22-D: 106.35\nXà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ: 67.9\nXà đỡ ghế, xà đỡ thang trèo: 55.40\nGhế thao tác: 47.36\nThang trèo: 42.25"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ\nThuận Đạt hết"
             }
           ]
         },
