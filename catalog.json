@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:32:51.864Z",
+  "updatedAt": "2026-07-10T09:37:55.052Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -21,37 +21,6 @@
             {
               "name": "Công suất tải",
               "value": "80% dòng điện định mức"
-            },
-            {
-              "name": "Dòng điện cắt",
-              "value": "+ AB có Iđm từ 100A tới dưới 400A: Icđm ≥ 36 kA.\n+ AB có Iđm từ 400A tới 630A: Icđm ≥ 50 kA.\n+ AB có Iđm từ 800A tới 1.600A: Icđm ≥ 70 kA.\n+ AB có Iđm từ 2.000A tới 3.200A: Icđm ≥ 85 kA."
-            },
-            {
-              "name": "Điện áp định mức",
-              "value": "690"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Aptomat 22kV",
-      "templates": [
-        {
-          "id": "pmis-5fe43d983ac43a8f",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Nhà cung cấp",
-              "value": "Schneider (PHÁP)"
-            },
-            {
-              "name": "Công suất tải",
-              "value": "80% dòng điện định mức"
-            },
-            {
-              "name": "Trạng thái kho",
-              "value": "0"
             },
             {
               "name": "Dòng điện cắt",
