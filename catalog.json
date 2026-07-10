@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:54.391Z",
+  "updatedAt": "2026-07-10T09:39:59.934Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -1255,101 +1255,6 @@
             {
               "name": "Số pha",
               "value": "3"
-            },
-            {
-              "name": "Sơ đồ mắc tụ",
-              "value": "D (Tam giác) - Tụ 22kV\nY (Sao) - Tụ 35kV\""
-            },
-            {
-              "name": "Số tụ nối tiếp 1 nhánh",
-              "value": "1"
-            },
-            {
-              "name": "Số nhánh tụ song song",
-              "value": "1"
-            },
-            {
-              "name": "Điện dung của 1 tụ điện",
-              "value": "100- Tụ 22kV\n123 - Tụ 35kV\""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Tụ bù trung thế",
-      "templates": [
-        {
-          "id": "pmis-f0376dbf959adac6",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Ngày lắp đặt",
-              "value": "không có trên pmis"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho tụ bù 22kV hoặc 35kV dạng từng quả (trạm trung áp) tùy theo cấp điện áp"
-            },
-            {
-              "name": "Kiểu đóng cắt tụ",
-              "value": "Đóng/cắt cố định"
-            },
-            {
-              "name": "Kiểu bù",
-              "value": "Dung lượng cố định"
-            },
-            {
-              "name": "Điện áp định mức của 1 bình tụ",
-              "value": "13.2 - Tụ 22kV\n22.13 - Tụ 35kV\""
-            },
-            {
-              "name": "Dung lượng định mức của 1 bình tụ",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Số bước bù",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Trên đường dây"
-            },
-            {
-              "name": "Điện áp danh định lưới điện lắp tụ",
-              "value": "22 - Tụ 22kV\n35 - Tụ 35kV\""
-            },
-            {
-              "name": "Số pha",
-              "value": "3"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
             },
             {
               "name": "Sơ đồ mắc tụ",
