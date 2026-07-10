@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:28.872Z",
+  "updatedAt": "2026-07-10T09:38:36.046Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -399,81 +399,6 @@
         {
           "id": "pmis-3934d229",
           "name": "Chống sét van 0,4kV GZ-500",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Việt Nam"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Việt Nam"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Tiêu chuẩn",
-              "value": "ZnO"
-            },
-            {
-              "name": "Kiểu CS Van",
-              "value": "ZnO"
-            },
-            {
-              "name": "U làm việc",
-              "value": "0.4"
-            },
-            {
-              "name": "U định mức",
-              "value": "50"
-            },
-            {
-              "name": "I phóng định mức",
-              "value": "40"
-            },
-            {
-              "name": "Tần số định mức",
-              "value": "50"
-            },
-            {
-              "name": "UMCOV",
-              "value": "1.2"
-            },
-            {
-              "name": "Nơi lắp đặt",
-              "value": "Trong tủ phân phối"
-            },
-            {
-              "name": "Loại dây",
-              "value": "Chống sét van"
-            },
-            {
-              "name": "Chiều dài dây",
-              "value": "0.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Chống sét van 0,4kV GZ-500",
-      "templates": [
-        {
-          "id": "pmis-8ea1fc5c4afcc8c4",
-          "name": "Hướng dẫn chung",
           "attributes": [
             {
               "name": "Ngày vận hành",
