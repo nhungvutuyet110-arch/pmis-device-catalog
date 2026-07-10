@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "deviceType": "Tiếp địa 22kV",
+      "templates": [
+        {
+          "id": "tiep-dia-22kv-r1c",
+          "name": "R1C",
+          "attributes": [
+            { "name": "Số cọc", "value": "1.00" },
+            { "name": "Mã hiệu", "value": "RC2" },
+            { "name": "Hãng sản xuất", "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt" }
+          ]
+        }
+      ]
+    }
+  ]
+}
