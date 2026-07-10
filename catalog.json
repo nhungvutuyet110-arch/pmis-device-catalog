@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:59.934Z",
+  "updatedAt": "2026-07-10T09:40:07.663Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -1279,120 +1279,6 @@
     {
       "deviceType": "Tủ hợp bộ (RMU)",
       "templates": [
-        {
-          "id": "pmis-22b9cf5fc2a14156",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Ngày lắp đặt",
-              "value": "không có trên pmis"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho tủ hợp bộ (RMU) 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
-            },
-            {
-              "name": "Loại Tủ",
-              "value": "RMU"
-            },
-            {
-              "name": "Kiểu mã hiệu",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Có chức năng điều khiển xa",
-              "value": "Có"
-            },
-            {
-              "name": "U Định mức",
-              "value": "24 - RMU 22kV\n36 - RMU 35kV\""
-            },
-            {
-              "name": "Tần số",
-              "value": "50"
-            },
-            {
-              "name": "I định mức thanh cái",
-              "value": "630"
-            },
-            {
-              "name": "Số ngăn đường dây",
-              "value": "2"
-            },
-            {
-              "name": "Số ngăn trạm biến áp",
-              "value": "1"
-            },
-            {
-              "name": "I chịu ngắn mạch định mức thanh cái",
-              "value": "12 - RMU 22kV\n12,5 - RMU 35kV\""
-            },
-            {
-              "name": "Khả năng mở rộng tủ",
-              "value": "Có"
-            },
-            {
-              "name": "Môi trường cách điện thanh cái",
-              "value": "SF6"
-            },
-            {
-              "name": "Số ngăn LBS",
-              "value": "2"
-            },
-            {
-              "name": "Dao tiếp địa ngăn LBS",
-              "value": "Có"
-            },
-            {
-              "name": "Số ngăn máy cắt",
-              "value": "1"
-            },
-            {
-              "name": "Dao tiếp địa ngăn máy cắt",
-              "value": "Có"
-            },
-            {
-              "name": "Số ngăn LBS+CC",
-              "value": "1"
-            },
-            {
-              "name": "Cơ cấu liên động",
-              "value": "Có"
-            },
-            {
-              "name": "Dao tiếp địa ngăn LBS+CC",
-              "value": "Có"
-            }
-          ]
-        },
         {
           "id": "pmis-db5ee987",
           "name": "Tủ hợp bộ (RMU)",
