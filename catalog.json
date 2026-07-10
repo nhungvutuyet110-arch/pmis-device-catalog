@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:05.427Z",
+  "updatedAt": "2026-07-10T09:39:11.406Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -624,80 +624,6 @@
             {
               "name": "Loại cáp",
               "value": "Theo bản vẽ hoàn công (cần bổ sung loại cáp vào danh mục)"
-            }
-          ]
-        },
-        {
-          "id": "pmis-7ea24e27669cabeb",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chọn trong hộp box"
-            },
-            {
-              "name": "Chiều dài cáp",
-              "value": "Bản vẽ hoàn công"
-            },
-            {
-              "name": "I định mức",
-              "value": "(tra cứu theo bảng)\nĐi trong ống: 447"
-            },
-            {
-              "name": "Đầu cáp điểm đầu",
-              "value": "đồng bộ"
-            },
-            {
-              "name": "Đầu cáp điểm cuối",
-              "value": "đồng bộ"
-            },
-            {
-              "name": "Hình thức lắp đặt cáp",
-              "value": "Đi trong ống nhựaHDPE"
-            },
-            {
-              "name": "Số lõi",
-              "value": "3"
-            },
-            {
-              "name": "Tiết diện",
-              "value": "theo tên chủng loại cáp (Cu/XLPE/PVC/DSTA/PVC 3x240 thì tiết diện là 240)"
-            },
-            {
-              "name": "Số mạch",
-              "value": "1"
-            },
-            {
-              "name": "Loại cáp",
-              "value": "Theo bản vẽ hoàn công (cần bổ sung loại cáp vào danh mục)"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "LS-Vina"
             }
           ]
         }
