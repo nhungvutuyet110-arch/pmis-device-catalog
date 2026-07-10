@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:30.461Z",
+  "updatedAt": "2026-07-10T09:39:42.525Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -993,60 +993,6 @@
     {
       "deviceType": "Sứ",
       "templates": [
-        {
-          "id": "pmis-b9f2ff5372d7c262",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
-            },
-            {
-              "name": "Loại cách điện",
-              "value": "Tùy theo thực tế để chọn loại tương ứng trong hộp box (nhìn theo ảnh GIS)\nSứ đứng polyme: Cách điện đứng Polymer/Cách điện treo Polymer (nhìn ảnh GIS xem sứ đứng hay treo)\nSứ chuỗi polyme: Cách điện treo Polyme"
-            },
-            {
-              "name": "Số lượng",
-              "value": "Đếm số lượng sứ trên ảnh GIS hoặc trong thông tin cột 1 (bản vẽ hoàn công, phần cách điện)\nXĐ: 3 quả\nXN, XNN 2M: 6 quả"
-            },
-            {
-              "name": "Chiều dài đường dò",
-              "value": "Tra cứu theo thông số kỹ thuật 318 (trang 20)\nSứ 22kV: 550\n35kV: 875"
-            },
-            {
-              "name": "Vật liệu cách điện",
-              "value": "Theo loại sứ (gốm hay polyme)"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)\nPolymer: Vina Electric"
-            }
-          ]
-        },
         {
           "id": "pmis-4d4ca393",
           "name": "Sứ",
