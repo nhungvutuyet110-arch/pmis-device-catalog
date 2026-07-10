@@ -1,11 +1,38 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10",
+  "updatedAt": "2026-07-10T09:32:51.864Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
-      "deviceType": "Aptomat 0,4kV",
-      "templates": []
+      "deviceType": "Aptomat",
+      "templates": [
+        {
+          "id": "pmis-92a01eef",
+          "name": "Aptomat",
+          "attributes": [
+            {
+              "name": "Nhà cung cấp",
+              "value": "Schneider"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Pháp"
+            },
+            {
+              "name": "Công suất tải",
+              "value": "80% dòng điện định mức"
+            },
+            {
+              "name": "Dòng điện cắt",
+              "value": "+ AB có Iđm từ 100A tới dưới 400A: Icđm ≥ 36 kA.\n+ AB có Iđm từ 400A tới 630A: Icđm ≥ 50 kA.\n+ AB có Iđm từ 800A tới 1.600A: Icđm ≥ 70 kA.\n+ AB có Iđm từ 2.000A tới 3.200A: Icđm ≥ 85 kA."
+            },
+            {
+              "name": "Điện áp định mức",
+              "value": "690"
+            }
+          ]
+        }
+      ]
     },
     {
       "deviceType": "Aptomat 22kV",
@@ -39,11 +66,11 @@
       ]
     },
     {
-      "deviceType": "Biến điện áp",
+      "deviceType": "Biến dòng điện",
       "templates": [
         {
-          "id": "pmis-a216d8fa09e1b635",
-          "name": "Hướng dẫn chung",
+          "id": "pmis-71f81f68",
+          "name": "Biến dòng điện (22/35kV)",
           "attributes": [
             {
               "name": "Ngày vận hành",
@@ -71,79 +98,94 @@
             },
             {
               "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho TU 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
+              "value": "Chu trình CBM cho biến dòng điện 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
             },
             {
-              "name": "Kiểu TU",
-              "value": "VTB-24"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Ngoài trời"
-            },
-            {
-              "name": "Số pha",
-              "value": "3"
-            },
-            {
-              "name": "U cuộn sơ cấp",
-              "value": "22000 - TU 22kV\n35000 - TU 35kV\""
-            },
-            {
-              "name": "U cuộn bảo vệ",
-              "value": "Không có"
-            },
-            {
-              "name": "Hãng sản xuất",
+              "name": "Tỷ số biến",
               "value": "Hồ sơ (lý lịch thiết bị)"
             },
             {
-              "name": "U vận hành",
-              "value": "22 - TU 22kV\n35 - TU 35kV\""
+              "name": "U định mức",
+              "value": "22 - TI 22kV\n36 - TI 35kV"
             },
             {
               "name": "Môi trường cách điện",
               "value": "Dầu"
             },
             {
-              "name": "Mục đích sử dụng",
-              "value": "Cấp nguồn"
-            },
-            {
-              "name": "Số cuộn thứ cấp",
+              "name": "Số tỉ số biến",
               "value": "1"
             },
             {
-              "name": "U thứ cấp cuộn 1",
-              "value": "220"
+              "name": "Số cuộn dây sơ cấp",
+              "value": "1"
             },
             {
-              "name": "U thứ cấp cuộn 2",
-              "value": "Không có"
+              "name": "Số cuộn dây thứ cấp",
+              "value": "1"
             },
             {
-              "name": "P định mức cuộn 1",
-              "value": "100"
+              "name": "Dòng điện sơ cấp tỉ số 1",
+              "value": "50"
             },
             {
-              "name": "P định mức cuộn 2",
-              "value": "Không có"
+              "name": "Dòng điện sơ cấp tỉ số 2",
+              "value": "50"
             },
             {
-              "name": "Cấp  chính xác cuộn 1",
+              "name": "Dòng điện sơ cấp tỉ số 3",
+              "value": "0"
+            },
+            {
+              "name": "Dòng điện thứ cấp 1",
+              "value": "1"
+            },
+            {
+              "name": "Dòng điện thứ cấp 2",
+              "value": "1"
+            },
+            {
+              "name": "Dòng điện thứ cấp 3",
+              "value": "0"
+            },
+            {
+              "name": "P định mức cuộn thứ cấp 1",
+              "value": "30"
+            },
+            {
+              "name": "P định mức cuộn thứ cấp 2",
+              "value": "30"
+            },
+            {
+              "name": "P định mức  cuộn thứ cấp 3",
+              "value": "30"
+            },
+            {
+              "name": "Cấp chính xác cuộn thứ cấp 1",
               "value": "0.5"
             },
             {
-              "name": "Cấp  chính xác cuộn 2",
-              "value": "Không có"
+              "name": "Cấp chính xác cuộn thứ cấp 2",
+              "value": "0.5"
+            },
+            {
+              "name": "Cấp chính xác cuộn thứ cấp 3",
+              "value": "0.5"
+            },
+            {
+              "name": "Chủng loại",
+              "value": "Gián tiếp"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Ngoài trời"
+            },
+            {
+              "name": "Kiểu TI",
+              "value": "Hồ sơ (lý lịch thiết bị)"
             }
           ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Biến dòng điện",
-      "templates": [
+        },
         {
           "id": "pmis-6a7e479a2e2b55c2",
           "name": "Hướng dẫn chung",
@@ -269,20 +311,267 @@
       ]
     },
     {
-      "deviceType": "Cáp lực 0,4kV",
-      "templates": []
-    },
-    {
-      "deviceType": "Cáp lực 22kV",
-      "templates": []
-    },
-    {
-      "deviceType": "Cáp trong trạm",
-      "templates": []
+      "deviceType": "Biến điện áp",
+      "templates": [
+        {
+          "id": "pmis-f5574e16",
+          "name": "Biến điện áp (22/35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho TU 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
+            },
+            {
+              "name": "Kiểu TU",
+              "value": "VTB-24"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Ngoài trời"
+            },
+            {
+              "name": "Số pha",
+              "value": "3"
+            },
+            {
+              "name": "U cuộn sơ cấp",
+              "value": "22000 - TU 22kV\n35000 - TU 35kV"
+            },
+            {
+              "name": "U cuộn bảo vệ",
+              "value": "Không có"
+            },
+            {
+              "name": "U vận hành",
+              "value": "22 - TU 22kV\n35 - TU 35kV"
+            },
+            {
+              "name": "Môi trường cách điện",
+              "value": "Dầu"
+            },
+            {
+              "name": "Mục đích sử dụng",
+              "value": "Cấp nguồn"
+            },
+            {
+              "name": "Số cuộn thứ cấp",
+              "value": "1"
+            },
+            {
+              "name": "U thứ cấp cuộn 1",
+              "value": "220"
+            },
+            {
+              "name": "U thứ cấp cuộn 2",
+              "value": "Không có"
+            },
+            {
+              "name": "P định mức cuộn 1",
+              "value": "100"
+            },
+            {
+              "name": "P định mức cuộn 2",
+              "value": "Không có"
+            },
+            {
+              "name": "Cấp  chính xác cuộn 1",
+              "value": "0.5"
+            },
+            {
+              "name": "Cấp  chính xác cuộn 2",
+              "value": "Không có"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a216d8fa09e1b635",
+          "name": "Hướng dẫn chung",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho TU 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
+            },
+            {
+              "name": "Kiểu TU",
+              "value": "VTB-24"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Ngoài trời"
+            },
+            {
+              "name": "Số pha",
+              "value": "3"
+            },
+            {
+              "name": "U cuộn sơ cấp",
+              "value": "22000 - TU 22kV\n35000 - TU 35kV\""
+            },
+            {
+              "name": "U cuộn bảo vệ",
+              "value": "Không có"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "U vận hành",
+              "value": "22 - TU 22kV\n35 - TU 35kV\""
+            },
+            {
+              "name": "Môi trường cách điện",
+              "value": "Dầu"
+            },
+            {
+              "name": "Mục đích sử dụng",
+              "value": "Cấp nguồn"
+            },
+            {
+              "name": "Số cuộn thứ cấp",
+              "value": "1"
+            },
+            {
+              "name": "U thứ cấp cuộn 1",
+              "value": "220"
+            },
+            {
+              "name": "U thứ cấp cuộn 2",
+              "value": "Không có"
+            },
+            {
+              "name": "P định mức cuộn 1",
+              "value": "100"
+            },
+            {
+              "name": "P định mức cuộn 2",
+              "value": "Không có"
+            },
+            {
+              "name": "Cấp  chính xác cuộn 1",
+              "value": "0.5"
+            },
+            {
+              "name": "Cấp  chính xác cuộn 2",
+              "value": "Không có"
+            }
+          ]
+        }
+      ]
     },
     {
       "deviceType": "Cầu chì",
       "templates": [
+        {
+          "id": "pmis-d6ca437f",
+          "name": "Cầu chì",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho cầu chì tự rơi 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "Môi trường Dập hồ quang",
+              "value": "Không khí"
+            },
+            {
+              "name": "I định mức",
+              "value": "Tính theo công thức: Công suất/điện áp Vận hành và chọn thang gần nhất trong hộp box"
+            },
+            {
+              "name": "U định mức",
+              "value": "24 - cầu chì 22kV\n38,5 - cầu chì 35kV"
+            },
+            {
+              "name": "I chịu ngắn mạch định mức",
+              "value": "12 - cầu chì 22kV\n12,5 - cầu chì 35kV"
+            },
+            {
+              "name": "Loại cầu chì",
+              "value": "FCO-kiểu tự rơi"
+            },
+            {
+              "name": "Số pha chì",
+              "value": "3"
+            },
+            {
+              "name": "Kiểu cầu chì",
+              "value": "Kiểu hở"
+            },
+            {
+              "name": "Cách điện",
+              "value": "Tùy theo thực tế để chọn trong box"
+            }
+          ]
+        },
         {
           "id": "pmis-a55d4529a50fb551",
           "name": "Hướng dẫn chung",
@@ -350,6 +639,151 @@
             {
               "name": "Hãng sản xuất",
               "value": "Hồ sơ (lý lịch thiết bị)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "deviceType": "Chống sét van",
+      "templates": [
+        {
+          "id": "pmis-0a536698",
+          "name": "Chống sét van (22/35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị hoặc hợp đồng thi công)\nPROTEKTEL\nSIEMENS"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho CSV 35kV hoặc 22kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "Kiểu CS Van",
+              "value": "UHS ZnO"
+            },
+            {
+              "name": "U định mức",
+              "value": "48 cấp điện áp 35kV\n24 cấp điện áp 22kV"
+            },
+            {
+              "name": "I phóng định mức",
+              "value": "10"
+            },
+            {
+              "name": "Tần số định mức",
+              "value": "50"
+            },
+            {
+              "name": "UMCOV",
+              "value": "38.4 cấp 35kV\n19.2 cấp 22kV Protecktel; 19.5 Siemens"
+            },
+            {
+              "name": "Nơi lắp đặt",
+              "value": "Trên đường dây với CSV trên cột, Tại TBA với CSV ở trạm"
+            },
+            {
+              "name": "Chủng loại",
+              "value": "CSV ko có khe ở"
+            },
+            {
+              "name": "Số lượng",
+              "value": "1"
+            },
+            {
+              "name": "Loại cách điện",
+              "value": "Hồ sơ (lý lịch thiết bị hoặc hợp đồng thi công)\nPolymer"
+            }
+          ]
+        },
+        {
+          "id": "pmis-3934d229",
+          "name": "Chống sét van 0,4kV GZ-500",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Việt Nam"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Việt Nam"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Tiêu chuẩn",
+              "value": "ZnO"
+            },
+            {
+              "name": "Kiểu CS Van",
+              "value": "ZnO"
+            },
+            {
+              "name": "U làm việc",
+              "value": "0.4"
+            },
+            {
+              "name": "U định mức",
+              "value": "50"
+            },
+            {
+              "name": "I phóng định mức",
+              "value": "40"
+            },
+            {
+              "name": "Tần số định mức",
+              "value": "50"
+            },
+            {
+              "name": "UMCOV",
+              "value": "1.2"
+            },
+            {
+              "name": "Nơi lắp đặt",
+              "value": "Trong tủ phân phối"
+            },
+            {
+              "name": "Loại dây",
+              "value": "Chống sét van"
+            },
+            {
+              "name": "Chiều dài dây",
+              "value": "0.5"
             }
           ]
         }
@@ -513,6 +947,48 @@
       "deviceType": "Cột điện",
       "templates": [
         {
+          "id": "pmis-a9e4c917",
+          "name": "Cột điện",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị), cần bổ sung vào danh mục"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Kiểu cột",
+              "value": "Bản vẽ hoàn công (PC...-chọn Cột BTLT\n2 PC - chọn cột Cột kép 2LT)"
+            },
+            {
+              "name": "Mã hiệu cột điện",
+              "value": "PC"
+            },
+            {
+              "name": "Chiều cao",
+              "value": "bản vẽ hoàn công (PC..20 thì chiều cao là 20)"
+            },
+            {
+              "name": "Vật liệu cột",
+              "value": "Dự ứng lực\nBê tông cốt thép"
+            }
+          ]
+        },
+        {
           "id": "pmis-b4cc41e3ea3a1417",
           "name": "Hướng dẫn chung",
           "attributes": [
@@ -571,6 +1047,48 @@
     {
       "deviceType": "Dao cách ly",
       "templates": [
+        {
+          "id": "pmis-03b4b5b7",
+          "name": "Dao cách ly",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho dao cách ly 35kV hoặc 22kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "Phân loại",
+              "value": "Biên bản thí nghiệm\nCách ly - đối với dao cách ly thường\nSOG - với dao cách ly là LBS"
+            },
+            {
+              "name": "Có chức năng điều khiển xa",
+              "value": "Không - đối với dao cách ly thường (tên dao cách ly là CD….)\nó - với dao cách ly là LBS (tên dao cách ly LBS…)"
+            }
+          ]
+        },
         {
           "id": "pmis-6bf50b1effb66bab",
           "name": "Hướng dẫn chung",
@@ -671,6 +1189,68 @@
       "deviceType": "Dây cáp ngầm",
       "templates": [
         {
+          "id": "pmis-c64b4d3d",
+          "name": "Dây cáp ngầm",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "LS-Vina"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chọn trong hộp box"
+            },
+            {
+              "name": "Chiều dài cáp",
+              "value": "Bản vẽ hoàn công"
+            },
+            {
+              "name": "I định mức",
+              "value": "(tra cứu theo bảng)\nĐi trong ống: 447"
+            },
+            {
+              "name": "Hình thức lắp đặt cáp",
+              "value": "Đi trong ống nhựa HDPE"
+            },
+            {
+              "name": "Số lõi",
+              "value": "3"
+            },
+            {
+              "name": "Tiết diện",
+              "value": "theo tên chủng loại cáp (Cu/XLPE/PVC/DSTA/PVC 3x240 thì tiết diện là 240)"
+            },
+            {
+              "name": "Số mạch",
+              "value": "1"
+            },
+            {
+              "name": "Loại cáp",
+              "value": "Theo bản vẽ hoàn công (cần bổ sung loại cáp vào danh mục)"
+            }
+          ]
+        },
+        {
           "id": "pmis-7ea24e27669cabeb",
           "name": "Hướng dẫn chung",
           "attributes": [
@@ -747,12 +1327,230 @@
       ]
     },
     {
-      "deviceType": "Dây chống sét 22kV",
-      "templates": []
-    },
-    {
       "deviceType": "Dây dẫn",
       "templates": [
+        {
+          "id": "pmis-5549e9f8",
+          "name": "AC-50",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thành"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "I định mức",
+              "value": "210"
+            },
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "AC-50"
+            },
+            {
+              "name": "Tiết diện dây dẫn",
+              "value": "50"
+            }
+          ]
+        },
+        {
+          "id": "pmis-614e7a0a",
+          "name": "AC-70",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thành"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "I định mức",
+              "value": "265"
+            },
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "AC-70"
+            },
+            {
+              "name": "Tiết diện dây dẫn",
+              "value": "70"
+            }
+          ]
+        },
+        {
+          "id": "pmis-5739a483aebbefbd",
+          "name": "AC50",
+          "attributes": [
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "AC-50"
+            },
+            {
+              "name": "I định mức",
+              "value": "210"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thành"
+            }
+          ]
+        },
+        {
+          "id": "pmis-8835bf6c549193ef",
+          "name": "AC70",
+          "attributes": [
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "AC-70"
+            },
+            {
+              "name": "I định mức",
+              "value": "265"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thành"
+            }
+          ]
+        },
+        {
+          "id": "pmis-6af3f3c651e8c2fd",
+          "name": "ACSR-70/11",
+          "attributes": [
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "ÁCSR-70"
+            },
+            {
+              "name": "I định mức",
+              "value": "265"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thành"
+            }
+          ]
+        },
+        {
+          "id": "pmis-48b40ae0",
+          "name": "ACSR-70/24",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thịnh"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "I định mức",
+              "value": "265"
+            },
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "ACSR-70"
+            },
+            {
+              "name": "Tiết diện dây dẫn",
+              "value": "70"
+            }
+          ]
+        },
+        {
+          "id": "pmis-79a20bc72e92c14e",
+          "name": "ACSR-150/24",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Trường Thịnh"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "I định mức",
+              "value": "440"
+            },
+            {
+              "name": "Chủng loại dây dẫn",
+              "value": "ACSR-150"
+            },
+            {
+              "name": "Tiết diện dây dẫn",
+              "value": "150"
+            }
+          ]
+        },
         {
           "id": "pmis-a19599b0f1aba274",
           "name": "Hướng dẫn chung",
@@ -802,84 +1600,58 @@
               "value": "Hồ sơ (lý lịch thiết bị)\n\nAC150 - Trường Thịnh"
             }
           ]
-        },
-        {
-          "id": "pmis-79a20bc72e92c14e",
-          "name": "ACSR-150/24",
-          "attributes": [
-            {
-              "name": "Chủng loại dây dẫn",
-              "value": "ACSR-150"
-            },
-            {
-              "name": "I định mức",
-              "value": "440"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Trường Thịnh"
-            }
-          ]
-        },
-        {
-          "id": "pmis-6af3f3c651e8c2fd",
-          "name": "ACSR-70/11",
-          "attributes": [
-            {
-              "name": "Chủng loại dây dẫn",
-              "value": "ÁCSR-70"
-            },
-            {
-              "name": "I định mức",
-              "value": "265"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Trường Thành"
-            }
-          ]
-        },
-        {
-          "id": "pmis-5739a483aebbefbd",
-          "name": "AC50",
-          "attributes": [
-            {
-              "name": "Chủng loại dây dẫn",
-              "value": "AC-50"
-            },
-            {
-              "name": "I định mức",
-              "value": "210"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Trường Thành"
-            }
-          ]
-        },
-        {
-          "id": "pmis-8835bf6c549193ef",
-          "name": "AC70",
-          "attributes": [
-            {
-              "name": "Chủng loại dây dẫn",
-              "value": "AC-70"
-            },
-            {
-              "name": "I định mức",
-              "value": "265"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Trường Thành"
-            }
-          ]
         }
       ]
     },
     {
       "deviceType": "Đường dây",
       "templates": [
+        {
+          "id": "pmis-b6d1a83b",
+          "name": "Đường dây",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Ngày lắp đặt",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Loại đường dây",
+              "value": "Nhánh  rẽ - với các ĐZ con\nTrục chính - với các XT ko có TBA 110kV\nTrục chính - Đầu nguồn - với các XT có TBA 110kV"
+            },
+            {
+              "name": "Điện áp cho phép",
+              "value": "Tùy theo xuất tuyến đang xét"
+            },
+            {
+              "name": "Tổng số cột",
+              "value": "Dựa trên số lượng cột trong hồ sơ"
+            },
+            {
+              "name": "Dòng điện định mức",
+              "value": "Căn cứ đường dây đang sử dụng loại dây gì để tra cứu Theo bảng từng loại dây dẫn đã đưa lên nhóm"
+            },
+            {
+              "name": "Số cột sắt",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Số cột bê tông",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            }
+          ]
+        },
         {
           "id": "pmis-b22a6bd713f0066d",
           "name": "Hướng dẫn chung",
@@ -931,18 +1703,6 @@
           ]
         }
       ]
-    },
-    {
-      "deviceType": "Máy cắt 0,4kV",
-      "templates": []
-    },
-    {
-      "deviceType": "Máy cắt 22kV",
-      "templates": []
-    },
-    {
-      "deviceType": "Móng cột 22kV",
-      "templates": []
     },
     {
       "deviceType": "Recloser",
@@ -1028,12 +1788,86 @@
               "value": "Đường dây"
             }
           ]
+        },
+        {
+          "id": "pmis-c87c4479",
+          "name": "Recloser",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Recloser (22kV) hoặc (35kV) trung thế tùy theo cấp điện áp"
+            },
+            {
+              "name": "Môi trường dập hồ quang",
+              "value": "Chân không"
+            },
+            {
+              "name": "Số chế tạo",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Có chức năng điều khiển xa",
+              "value": "Có"
+            },
+            {
+              "name": "Kiểu recloser",
+              "value": "OSM27 - Re 22kV\nOSM38 - Re 35kV"
+            },
+            {
+              "name": "Tần số định mức",
+              "value": "50"
+            },
+            {
+              "name": "Điện áp chịu xung sét",
+              "value": "125 - Re 22kV\n190 - Re 35kV"
+            },
+            {
+              "name": "Dòng cắt ngắn mạch định mức",
+              "value": "12 - Re 22kV\n12,5 - Re 35kV"
+            },
+            {
+              "name": "Điện áp định mức",
+              "value": "24 - Re 22kV\n38,5 - Re 35kV"
+            },
+            {
+              "name": "I định mức",
+              "value": "630"
+            },
+            {
+              "name": "Số lần đóng/cắt định mức",
+              "value": "2000"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Đường dây"
+            }
+          ]
         }
       ]
-    },
-    {
-      "deviceType": "Recloser 22kV",
-      "templates": []
     },
     {
       "deviceType": "Sứ",
@@ -1091,16 +1925,58 @@
               "value": "Hồ sơ (lý lịch thiết bị)\nPolymer: Vina Electric"
             }
           ]
+        },
+        {
+          "id": "pmis-4d4ca393",
+          "name": "Sứ",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)\nPolymer: Vina Electric\nGốm: Minh Long hoặc Hoàng Liên Sơn"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho Đường dây trên không 22kV hoặc 35kV tùy theo cấp điện áp"
+            },
+            {
+              "name": "Loại cách điện",
+              "value": "Tùy theo thực tế để chọn loại tương ứng trong hộp box (nhìn theo ảnh GIS)\nSứ đứng polyme: Cách điện đứng Polymer/Cách điện treo Polymer (nhìn ảnh GIS xem sứ đứng hay treo)\nSứ chuỗi polyme: Cách điện treo Polyme"
+            },
+            {
+              "name": "Số lượng",
+              "value": "Đếm số lượng sứ trên ảnh GIS hoặc trong thông tin cột 1 (bản vẽ hoàn công, phần cách điện)\nXĐ: 3 quả\nXN, XNN 2M: 6 quả\nCĐ: sứ chuỗi đứng\nCN: sứ chuỗi néo"
+            },
+            {
+              "name": "Chiều dài đường dò",
+              "value": "Tra cứu theo thông số kỹ thuật 318 (trang 20)\nSứ 22kV: 550\n35kV: 875"
+            },
+            {
+              "name": "Vật liệu cách điện",
+              "value": "Theo loại sứ (gốm hay polyme)"
+            }
+          ]
         }
       ]
-    },
-    {
-      "deviceType": "Thiết bị cảnh báo 35kV",
-      "templates": []
-    },
-    {
-      "deviceType": "Thiết bị đo đếm 35kV",
-      "templates": []
     },
     {
       "deviceType": "Tiếp địa",
@@ -1136,6 +2012,232 @@
             {
               "name": "Năm sản xuất",
               "value": "Hồ sơ (lý lịch thiết bị)"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a9eedac7",
+          "name": "Tiếp địa",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hảng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Mã hiệu",
+              "value": "R1C\nR2C"
+            },
+            {
+              "name": "Số cọc",
+              "value": "theo loại (R1C là 1; R2C là 2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "deviceType": "Tiếp địa 22kV",
+      "templates": [
+        {
+          "id": "tiep-dia-22kv-r1c",
+          "name": "R1C",
+          "attributes": [
+            {
+              "name": "Số cọc",
+              "value": "1.00"
+            },
+            {
+              "name": "Mã hiệu",
+              "value": "RC2"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "deviceType": "Tụ bù",
+      "templates": [
+        {
+          "id": "pmis-cc8334d6",
+          "name": "Tụ bù 0,4kV",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Ngày lắp đặt",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Chế độ vận hành",
+              "value": "Cố định"
+            },
+            {
+              "name": "Kiểu bù",
+              "value": "Bù tự động"
+            },
+            {
+              "name": "Số lượng",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "U định mức",
+              "value": "450"
+            },
+            {
+              "name": "Dung lượng",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Số bước bù",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Điện áp chịu xung sét",
+              "value": "2"
+            },
+            {
+              "name": "Tiêu chuẩn chế tạo",
+              "value": "IEC"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Trên đường dây với tụ trên cột hạ thế, Tại trạm với tụ ở trạm"
+            },
+            {
+              "name": "Độ cao lắp đặt",
+              "value": "4 với tụ trên cột\n1 với tụ tại TBA"
+            }
+          ]
+        },
+        {
+          "id": "pmis-4b20e2e3",
+          "name": "Tụ bù 22/35kV",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Ngày lắp đặt",
+              "value": "không có trên pmis"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho tụ bù 22kV hoặc 35kV dạng từng quả (trạm trung áp) tùy theo cấp điện áp"
+            },
+            {
+              "name": "Kiểu đóng cắt tụ",
+              "value": "Đóng/cắt cố định"
+            },
+            {
+              "name": "Kiểu bù",
+              "value": "Dung lượng cố định"
+            },
+            {
+              "name": "Điện áp định mức của 1 bình tụ",
+              "value": "13.2 - Tụ 22kV\n22.13 - Tụ 35kV\""
+            },
+            {
+              "name": "Dung lượng định mức của 1 bình tụ",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Số bước bù",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Vị trí lắp đặt",
+              "value": "Trên đường dây"
+            },
+            {
+              "name": "Điện áp danh định lưới điện lắp tụ",
+              "value": "22 - Tụ 22kV\n35 - Tụ 35kV\""
+            },
+            {
+              "name": "Số pha",
+              "value": "3"
+            },
+            {
+              "name": "Sơ đồ mắc tụ",
+              "value": "D (Tam giác) - Tụ 22kV\nY (Sao) - Tụ 35kV\""
+            },
+            {
+              "name": "Số tụ nối tiếp 1 nhánh",
+              "value": "1"
+            },
+            {
+              "name": "Số nhánh tụ song song",
+              "value": "1"
+            },
+            {
+              "name": "Điện dung của 1 tụ điện",
+              "value": "100- Tụ 22kV\n123 - Tụ 35kV\""
             }
           ]
         }
@@ -1431,16 +2533,392 @@
               "value": "Có"
             }
           ]
+        },
+        {
+          "id": "pmis-db5ee987",
+          "name": "Tủ hợp bộ (RMU)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Ngày lắp đặt",
+              "value": "không có trên pmis"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Nhóm thực hiện CBM",
+              "value": "Chu trình CBM cho tủ hợp bộ (RMU) 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
+            },
+            {
+              "name": "Loại Tủ",
+              "value": "RMU"
+            },
+            {
+              "name": "Kiểu mã hiệu",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Có chức năng điều khiển xa",
+              "value": "Có"
+            },
+            {
+              "name": "U Định mức",
+              "value": "24 - RMU 22kV\n36 - RMU 35kV\""
+            },
+            {
+              "name": "Tần số",
+              "value": "50"
+            },
+            {
+              "name": "I định mức thanh cái",
+              "value": "630"
+            },
+            {
+              "name": "Số ngăn đường dây",
+              "value": "2"
+            },
+            {
+              "name": "Số ngăn trạm biến áp",
+              "value": "1"
+            },
+            {
+              "name": "I chịu ngắn mạch định mức thanh cái",
+              "value": "12 - RMU 22kV\n12,5 - RMU 35kV\""
+            },
+            {
+              "name": "Khả năng mở rộng tủ",
+              "value": "Có"
+            },
+            {
+              "name": "Môi trường cách điện thanh cái",
+              "value": "SF6"
+            },
+            {
+              "name": "Số ngăn LBS",
+              "value": "2"
+            },
+            {
+              "name": "Dao tiếp địa ngăn LBS",
+              "value": "Có"
+            },
+            {
+              "name": "Số ngăn máy cắt",
+              "value": "1"
+            },
+            {
+              "name": "Dao tiếp địa ngăn máy cắt",
+              "value": "Có"
+            },
+            {
+              "name": "Số ngăn LBS+CC",
+              "value": "1"
+            },
+            {
+              "name": "Cơ cấu liên động",
+              "value": "Có"
+            },
+            {
+              "name": "Dao tiếp địa ngăn LBS+CC",
+              "value": "Có"
+            }
+          ]
         }
       ]
     },
     {
-      "deviceType": "Tủ hợp bộ 22kV",
-      "templates": []
-    },
-    {
       "deviceType": "Xà",
       "templates": [
+        {
+          "id": "pmis-1ea06e14173fc571",
+          "name": "Cầu xà chuỗi néo (CXN...)",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.55"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "6.33"
+            }
+          ]
+        },
+        {
+          "id": "pmis-3419078e",
+          "name": "Cầu xà chuỗi néo (CXN...) (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.55"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "6.33"
+            }
+          ]
+        },
+        {
+          "id": "pmis-92d91caa",
+          "name": "Cầu xà chuỗi néo (CXN...) (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-570cf96a2553eb3b",
+          "name": "Ghế thao tác",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "3.12"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "47.36"
+            }
+          ]
+        },
+        {
+          "id": "pmis-2fefce18",
+          "name": "Ghế thao tác (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "3.12"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "47.36"
+            }
+          ]
+        },
+        {
+          "id": "pmis-bbce2330",
+          "name": "Ghế thao tác (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-7b4b1188182dfee9",
+          "name": "Giá đỡ tay thao tác (GĐTTT...)",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.4"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "10.09"
+            }
+          ]
+        },
+        {
+          "id": "pmis-39ecd308",
+          "name": "Giá đỡ tay thao tác (GĐTTT...) (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.4"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "10.09"
+            }
+          ]
+        },
+        {
+          "id": "pmis-1e657e60",
+          "name": "Giá đỡ tay thao tác (GĐTTT...) (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
         {
           "id": "pmis-bba21709ebd4f900",
           "name": "Hướng dẫn chung",
@@ -1488,434 +2966,6 @@
           ]
         },
         {
-          "id": "pmis-0124108477cd3bf0",
-          "name": "XĐ-3T-2M",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà đỡ thẳng 2 mạch"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "222.92"
-            }
-          ]
-        },
-        {
-          "id": "pmis-31948fa412abbd4b",
-          "name": "XN-3T-2M",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà néo 2 mạch"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "221.89"
-            }
-          ]
-        },
-        {
-          "id": "pmis-9f51d742eb77fe2b",
-          "name": "XNN-3T-2M",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà néo 2 mạch"
-            },
-            {
-              "name": "Kích thước",
-              "value": "3.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "371.83"
-            }
-          ]
-        },
-        {
-          "id": "pmis-b2e37fd4b76c1a54",
-          "name": "XNN-3T-2M-CB",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà néo 2 mạch"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.57"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "305.61"
-            }
-          ]
-        },
-        {
-          "id": "pmis-4aaa34418cd2925b",
-          "name": "XNĐ-3T-2M-CB",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà néo 2 mạch"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.5"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "402.73"
-            }
-          ]
-        },
-        {
-          "id": "pmis-55c087e2cee43002",
-          "name": "X1-3Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà đỡ thẳng"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "38.1"
-            }
-          ]
-        },
-        {
-          "id": "pmis-139b62fd0aac3111",
-          "name": "XB-3Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà đỡ thẳng"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.7"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "33.47"
-            }
-          ]
-        },
-        {
-          "id": "pmis-6da606371ef4f40d",
-          "name": "X2-6CN-1Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "xà đỡ thẳng"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "73.74"
-            }
-          ]
-        },
-        {
-          "id": "pmis-1d1b92338b4dc2ce",
-          "name": "Xà đỡ cầu dao XCD-22-D",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.84"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "106.35"
-            }
-          ]
-        },
-        {
-          "id": "pmis-d59b7abab65a1425",
-          "name": "Xà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.35"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "67.9"
-            }
-          ]
-        },
-        {
-          "id": "pmis-4a7a5eeedad223fa",
-          "name": "Xà đỡ ghế, xà đỡ thang trèo",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.64"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "55.4"
-            }
-          ]
-        },
-        {
-          "id": "pmis-570cf96a2553eb3b",
-          "name": "Ghế thao tác",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "3.12"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "47.36"
-            }
-          ]
-        },
-        {
-          "id": "pmis-c59f305376d2b5cc",
-          "name": "Thang trèo",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "3"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "42.25"
-            }
-          ]
-        },
-        {
-          "id": "pmis-2d7af62efda22fce",
-          "name": "Xà phụ XP-1",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.78"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "11.25"
-            }
-          ]
-        },
-        {
-          "id": "pmis-8bb2ea756d546d32",
-          "name": "Xà phụ XP-2",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.79"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "18.95"
-            }
-          ]
-        },
-        {
-          "id": "pmis-96fb49f6e702556a",
-          "name": "Xà phụ XP-3",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.81"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "24.09"
-            }
-          ]
-        },
-        {
-          "id": "pmis-1ea06e14173fc571",
-          "name": "Cầu xà chuỗi néo (CXN...)",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.55"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "6.33"
-            }
-          ]
-        },
-        {
-          "id": "pmis-a020f6f8f4d46ebe",
-          "name": "Xà trung gian (XTG....)",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.15"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "39.7"
-            }
-          ]
-        },
-        {
-          "id": "pmis-2f1405a48ed98eca",
-          "name": "Xà đỡ biến điện áp + CSV (XTU-CSV...)",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.88"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "96.48"
-            }
-          ]
-        },
-        {
-          "id": "pmis-eecef6875225ce11",
-          "name": "Xà đỡ LBS (XLBS...)",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "1.7"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "74.75"
-            }
-          ]
-        },
-        {
-          "id": "pmis-7b4b1188182dfee9",
-          "name": "Giá đỡ tay thao tác (GĐTTT...)",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.4"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "10.09"
-            }
-          ]
-        },
-        {
-          "id": "pmis-b971a5cf943be9f8",
-          "name": "X2-6Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà đỡ thẳng"
-            },
-            {
-              "name": "Kích thước",
-              "value": "2.1"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "73.93"
-            }
-          ]
-        },
-        {
-          "id": "pmis-7cf91b23904c8e07",
-          "name": "Xà đỡ MBA",
-          "attributes": [
-            {
-              "name": "Kích thước",
-              "value": "3.05"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "223.26"
-            }
-          ]
-        },
-        {
-          "id": "pmis-17546433a1a7c7d1",
-          "name": "X2L-2Đ",
-          "attributes": [
-            {
-              "name": "Loại xà",
-              "value": "Xà đỡ lệch 3 tầng xà"
-            },
-            {
-              "name": "Kích thước",
-              "value": "0.98"
-            },
-            {
-              "name": "Khối lượng",
-              "value": "32.795"
-            }
-          ]
-        },
-        {
           "id": "pmis-938c231c8dc07409",
           "name": "Ký hiệu xà/Tên xà (35kV)",
           "attributes": [
@@ -1938,6 +2988,306 @@
           ]
         },
         {
+          "id": "pmis-c59f305376d2b5cc",
+          "name": "Thang trèo",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "3"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "42.25"
+            }
+          ]
+        },
+        {
+          "id": "pmis-d0c75030",
+          "name": "Thang trèo (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "3"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "42.25"
+            }
+          ]
+        },
+        {
+          "id": "pmis-21cdd948",
+          "name": "Thang trèo (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-55c087e2cee43002",
+          "name": "X1-3Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "38.1"
+            }
+          ]
+        },
+        {
+          "id": "pmis-55c087e2cee43002",
+          "name": "X1-3Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "42.16"
+            }
+          ]
+        },
+        {
+          "id": "pmis-f0b0f199",
+          "name": "X1-3Đ (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "38.1"
+            }
+          ]
+        },
+        {
+          "id": "pmis-3d31dff5",
+          "name": "X1-3Đ (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "42.16"
+            }
+          ]
+        },
+        {
+          "id": "pmis-6da606371ef4f40d",
+          "name": "X2-6CN-1Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "73.74"
+            }
+          ]
+        },
+        {
+          "id": "pmis-498d54e8",
+          "name": "X2-6CN-1Đ (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "73.74"
+            }
+          ]
+        },
+        {
+          "id": "pmis-97e5ae40",
+          "name": "X2-6CN-1Đ (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
           "id": "pmis-b971a5cf943be9f8",
           "name": "X2-6Đ",
           "attributes": [
@@ -1947,6 +3297,108 @@
             },
             {
               "name": "Kích thước",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "73.93"
+            }
+          ]
+        },
+        {
+          "id": "pmis-b971a5cf943be9f8",
+          "name": "X2-6Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.65"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "89.247"
+            }
+          ]
+        },
+        {
+          "id": "pmis-6062880f",
+          "name": "X2-6Đ (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "73.93"
+            }
+          ]
+        },
+        {
+          "id": "pmis-02d29cbf",
+          "name": "X2-6Đ (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
               "value": "2.65"
             },
             {
@@ -1974,6 +3426,138 @@
           ]
         },
         {
+          "id": "pmis-51178095",
+          "name": "X2KD-6CN-CDLD (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-5dac4999",
+          "name": "X2KD-6CN-CDLD (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "133.5"
+            }
+          ]
+        },
+        {
+          "id": "pmis-17546433a1a7c7d1",
+          "name": "X2L-2Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ lệch 3 tầng xà"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.98"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "32.795"
+            }
+          ]
+        },
+        {
+          "id": "pmis-cdcca844",
+          "name": "X2L-2Đ (22)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ lệch 3 tầng xà"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.98"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "32.795"
+            }
+          ]
+        },
+        {
           "id": "pmis-be6fd649b5ec6e51",
           "name": "X2ZK-6CN+1Đ",
           "attributes": [
@@ -1992,12 +3576,1006 @@
           ]
         },
         {
-          "id": "pmis-55c087e2cee43002",
-          "name": "X1-3Đ",
+          "id": "pmis-93178451",
+          "name": "X2ZK-6CN+1Đ (35kV)",
           "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
             {
               "name": "Loại xà",
               "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "116.1"
+            }
+          ]
+        },
+        {
+          "id": "pmis-2f1405a48ed98eca",
+          "name": "Xà đỡ biến điện áp + CSV (XTU-CSV...)",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.88"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "96.48"
+            }
+          ]
+        },
+        {
+          "id": "pmis-773a6ced",
+          "name": "Xà đỡ biến điện áp + CSV (XTU-CSV...) (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.88"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "96.48"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a143d4d1",
+          "name": "Xà đỡ biến điện áp + CSV (XTU-CSV...) (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-1d1b92338b4dc2ce",
+          "name": "Xà đỡ cầu dao XCD-22-D",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.84"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "106.35"
+            }
+          ]
+        },
+        {
+          "id": "pmis-d61ca590",
+          "name": "Xà đỡ cầu dao XCD-22-D (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.84"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "106.35"
+            }
+          ]
+        },
+        {
+          "id": "pmis-27232ea8",
+          "name": "Xà đỡ cầu dao XCD-22-D (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-d59b7abab65a1425",
+          "name": "Xà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.35"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "67.9"
+            }
+          ]
+        },
+        {
+          "id": "pmis-5ebff725",
+          "name": "Xà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.35"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "67.9"
+            }
+          ]
+        },
+        {
+          "id": "pmis-d01eda29",
+          "name": "Xà đỡ CSV-Cáp ngầm: XĐC-CSV-Đ (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-4a7a5eeedad223fa",
+          "name": "Xà đỡ ghế, xà đỡ thang trèo",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.64"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "55.4"
+            }
+          ]
+        },
+        {
+          "id": "pmis-cd81e7a2",
+          "name": "Xà đỡ ghế, xà đỡ thang trèo (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.64"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "55.4"
+            }
+          ]
+        },
+        {
+          "id": "pmis-ee9559c6",
+          "name": "Xà đỡ ghế, xà đỡ thang trèo (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-eecef6875225ce11",
+          "name": "Xà đỡ LBS (XLBS...)",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.7"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "74.75"
+            }
+          ]
+        },
+        {
+          "id": "pmis-442779b9",
+          "name": "Xà đỡ LBS (XLBS...) (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.7"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "74.75"
+            }
+          ]
+        },
+        {
+          "id": "pmis-f80f4015",
+          "name": "Xà đỡ LBS (XLBS...) (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-7cf91b23904c8e07",
+          "name": "Xà đỡ MBA",
+          "attributes": [
+            {
+              "name": "Kích thước",
+              "value": "3.05"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "223.26"
+            }
+          ]
+        },
+        {
+          "id": "pmis-22b76607",
+          "name": "Xà đỡ MBA ()",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "3.05"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "223.26"
+            }
+          ]
+        },
+        {
+          "id": "pmis-2d7af62efda22fce",
+          "name": "Xà phụ XP-1",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.78"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "11.25"
+            }
+          ]
+        },
+        {
+          "id": "pmis-679a20e0",
+          "name": "Xà phụ XP-1 (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.78"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "11.25"
+            }
+          ]
+        },
+        {
+          "id": "pmis-71104838",
+          "name": "Xà phụ XP-1 (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-8bb2ea756d546d32",
+          "name": "Xà phụ XP-2",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.79"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "18.95"
+            }
+          ]
+        },
+        {
+          "id": "pmis-f8d91e93",
+          "name": "Xà phụ XP-2 (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.79"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "18.95"
+            }
+          ]
+        },
+        {
+          "id": "pmis-0f63299b",
+          "name": "Xà phụ XP-2 (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-96fb49f6e702556a",
+          "name": "Xà phụ XP-3",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "0.81"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "24.09"
+            }
+          ]
+        },
+        {
+          "id": "pmis-d600aad2",
+          "name": "Xà phụ XP-3 (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "0.81"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "24.09"
+            }
+          ]
+        },
+        {
+          "id": "pmis-b713b836",
+          "name": "Xà phụ XP-3 (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a020f6f8f4d46ebe",
+          "name": "Xà trung gian (XTG....)",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.15"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "39.7"
+            }
+          ]
+        },
+        {
+          "id": "pmis-64459d4e",
+          "name": "Xà trung gian (XTG....) (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "Xà phụ: xà phụ (giá tụ bù, TI,...)"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.15"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "39.7"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a9b8fd6a",
+          "name": "Xà trung gian (XTG....) (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-139b62fd0aac3111",
+          "name": "XB-3Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "1.7"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "33.47"
+            }
+          ]
+        },
+        {
+          "id": "pmis-fd32bbb8",
+          "name": "XB-3Đ (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "1.7"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "33.47"
+            }
+          ]
+        },
+        {
+          "id": "pmis-a1ab0250",
+          "name": "XB-3Đ (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-0124108477cd3bf0",
+          "name": "XĐ-3T-2M",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng 2 mạch"
             },
             {
               "name": "Kích thước",
@@ -2005,26 +4583,435 @@
             },
             {
               "name": "Khối lượng",
-              "value": "42.16"
+              "value": "222.92"
             }
           ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Tiếp địa 22kV",
-      "templates": [
+        },
         {
-          "id": "tiep-dia-22kv-r1c",
-          "name": "R1C",
+          "id": "pmis-dfa09258",
+          "name": "XĐ-3T-2M  (22kV)",
           "attributes": [
             {
-              "name": "Số cọc",
-              "value": "1.00"
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
             },
             {
-              "name": "Mã hiệu",
-              "value": "RC2"
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà đỡ thẳng 2 mạch"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "222.92"
+            }
+          ]
+        },
+        {
+          "id": "pmis-6df95070",
+          "name": "XĐ-3T-2M  (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-31948fa412abbd4b",
+          "name": "XN-3T-2M",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "221.89"
+            }
+          ]
+        },
+        {
+          "id": "pmis-499b594e",
+          "name": "XN-3T-2M (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "221.89"
+            }
+          ]
+        },
+        {
+          "id": "pmis-8f0eb96a",
+          "name": "XN-3T-2M (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-4aaa34418cd2925b",
+          "name": "XNĐ-3T-2M-CB",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.5"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "402.73"
+            }
+          ]
+        },
+        {
+          "id": "pmis-5a86a5d4",
+          "name": "XNĐ-3T-2M-CB (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.5"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "402.73"
+            }
+          ]
+        },
+        {
+          "id": "pmis-3d2ceea4",
+          "name": "XNĐ-3T-2M-CB (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-9f51d742eb77fe2b",
+          "name": "XNN-3T-2M",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Kích thước",
+              "value": "3.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "371.83"
+            }
+          ]
+        },
+        {
+          "id": "pmis-66c6f554",
+          "name": "XNN-3T-2M (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "3.1"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "371.83"
+            }
+          ]
+        },
+        {
+          "id": "pmis-496d3e24",
+          "name": "XNN-3T-2M (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            }
+          ]
+        },
+        {
+          "id": "pmis-b2e37fd4b76c1a54",
+          "name": "XNN-3T-2M-CB",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.57"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "305.61"
+            }
+          ]
+        },
+        {
+          "id": "pmis-c01b3b2a",
+          "name": "XNN-3T-2M-CB (22kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Công ty CP sản xuất thương mại và đầu tư Thuận Đạt"
+            },
+            {
+              "name": "Loại xà",
+              "value": "xà néo 2 mạch"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.57"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "305.61"
+            }
+          ]
+        },
+        {
+          "id": "pmis-9e642dae",
+          "name": "XNN-3T-2M-CB (35kV)",
+          "attributes": [
+            {
+              "name": "Ngày vận hành",
+              "value": "Hồ sơ (BB nghiệm thu)"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang sử dụng"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Hồ sơ"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Hồ sơ (lý lịch thiết bị)"
             },
             {
               "name": "Hãng sản xuất",
