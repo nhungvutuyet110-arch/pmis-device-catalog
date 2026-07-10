@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:18.731Z",
+  "updatedAt": "2026-07-10T09:38:23.944Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -318,76 +318,6 @@
             {
               "name": "Cách điện",
               "value": "Tùy theo thực tế để chọn trong box"
-            }
-          ]
-        },
-        {
-          "id": "pmis-a55d4529a50fb551",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho cầu chì tự rơi 22kV hoặc 35kV tùy theo cấp điện áp"
-            },
-            {
-              "name": "Môi trường Dập hồ quang",
-              "value": "Không khí"
-            },
-            {
-              "name": "I định mức",
-              "value": "Tính theo công thức: Công suất/điện áp Vận hành và chọn thang gần nhất trong hộp box"
-            },
-            {
-              "name": "U định mức",
-              "value": "24 - cầu chì 22kV\n38,5 - cầu chì 35kV\""
-            },
-            {
-              "name": "I chịu ngắn mạch định mức",
-              "value": "12 - cầu chì 22kV\n12,5 - cầu chì 35kV\""
-            },
-            {
-              "name": "Loại cầu chì",
-              "value": "FCO-kiểu tự rơi"
-            },
-            {
-              "name": "Số pha chì",
-              "value": "3"
-            },
-            {
-              "name": "Kiểu cầu chì",
-              "value": "Kiểu hở"
-            },
-            {
-              "name": "Cách điện",
-              "value": "Tùy theo thực tế để chọn trong box"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
             }
           ]
         }
