@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:37:55.052Z",
+  "updatedAt": "2026-07-10T09:38:03.742Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -140,128 +140,6 @@
             {
               "name": "Cấp chính xác cuộn thứ cấp 3",
               "value": "0.5"
-            },
-            {
-              "name": "Chủng loại",
-              "value": "Gián tiếp"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Ngoài trời"
-            },
-            {
-              "name": "Kiểu TI",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            }
-          ]
-        },
-        {
-          "id": "pmis-6a7e479a2e2b55c2",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho biến dòng điện 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
-            },
-            {
-              "name": "Tỷ số biến",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "U định mức",
-              "value": "22 - TI 22kV\n36 - TI 35kV\""
-            },
-            {
-              "name": "Môi trường cách điện",
-              "value": "Dầu"
-            },
-            {
-              "name": "Số tỉ số biến",
-              "value": "1"
-            },
-            {
-              "name": "Số cuộn dây sơ cấp",
-              "value": "1"
-            },
-            {
-              "name": "Số cuộn dây thứ cấp",
-              "value": "1"
-            },
-            {
-              "name": "Dòng điện sơ cấp tỉ số 1",
-              "value": "50"
-            },
-            {
-              "name": "Dòng điện sơ cấp tỉ số 2",
-              "value": "50"
-            },
-            {
-              "name": "Dòng điện sơ cấp tỉ số 3",
-              "value": "0"
-            },
-            {
-              "name": "Dòng điện thứ cấp 1",
-              "value": "1"
-            },
-            {
-              "name": "Dòng điện thứ cấp 2",
-              "value": "1"
-            },
-            {
-              "name": "Dòng điện thứ cấp 3",
-              "value": "0"
-            },
-            {
-              "name": "P định mức cuộn thứ cấp 1",
-              "value": "30"
-            },
-            {
-              "name": "P định mức cuộn thứ cấp 2",
-              "value": "30"
-            },
-            {
-              "name": "P định mức  cuộn thứ cấp 3",
-              "value": "30"
-            },
-            {
-              "name": "Cấp chính xác cuộn thứ cấp 1",
-              "value": "0.5"
-            },
-            {
-              "name": "Cấp chính xác cuộn thứ cấp 2",
-              "value": "0.5"
-            },
-            {
-              "name": "Cấp chính xác cuộn thứ cấp 3",
-              "value": "0.5"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
             },
             {
               "name": "Chủng loại",
