@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:03.742Z",
+  "updatedAt": "2026-07-10T09:38:18.731Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -215,104 +215,6 @@
             {
               "name": "U vận hành",
               "value": "22 - TU 22kV\n35 - TU 35kV"
-            },
-            {
-              "name": "Môi trường cách điện",
-              "value": "Dầu"
-            },
-            {
-              "name": "Mục đích sử dụng",
-              "value": "Cấp nguồn"
-            },
-            {
-              "name": "Số cuộn thứ cấp",
-              "value": "1"
-            },
-            {
-              "name": "U thứ cấp cuộn 1",
-              "value": "220"
-            },
-            {
-              "name": "U thứ cấp cuộn 2",
-              "value": "Không có"
-            },
-            {
-              "name": "P định mức cuộn 1",
-              "value": "100"
-            },
-            {
-              "name": "P định mức cuộn 2",
-              "value": "Không có"
-            },
-            {
-              "name": "Cấp  chính xác cuộn 1",
-              "value": "0.5"
-            },
-            {
-              "name": "Cấp  chính xác cuộn 2",
-              "value": "Không có"
-            }
-          ]
-        },
-        {
-          "id": "pmis-a216d8fa09e1b635",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho TU 22kV hoặc 35kV trung thế tùy theo cấp điện áp"
-            },
-            {
-              "name": "Kiểu TU",
-              "value": "VTB-24"
-            },
-            {
-              "name": "Vị trí lắp đặt",
-              "value": "Ngoài trời"
-            },
-            {
-              "name": "Số pha",
-              "value": "3"
-            },
-            {
-              "name": "U cuộn sơ cấp",
-              "value": "22000 - TU 22kV\n35000 - TU 35kV\""
-            },
-            {
-              "name": "U cuộn bảo vệ",
-              "value": "Không có"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "U vận hành",
-              "value": "22 - TU 22kV\n35 - TU 35kV\""
             },
             {
               "name": "Môi trường cách điện",
