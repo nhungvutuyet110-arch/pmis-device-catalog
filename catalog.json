@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:39:18.003Z",
+  "updatedAt": "2026-07-10T09:39:24.494Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -886,56 +886,6 @@
             {
               "name": "Điện áp cho phép",
               "value": "Tùy theo xuất tuyến đang xét"
-            },
-            {
-              "name": "Tổng số cột",
-              "value": "Dựa trên số lượng cột trong hồ sơ"
-            },
-            {
-              "name": "Dòng điện định mức",
-              "value": "Căn cứ đường dây đang sử dụng loại dây gì để tra cứu Theo bảng từng loại dây dẫn đã đưa lên nhóm"
-            },
-            {
-              "name": "Số cột sắt",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Số cột bê tông",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            }
-          ]
-        },
-        {
-          "id": "pmis-b22a6bd713f0066d",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Ngày lắp đặt",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Loại đường dây",
-              "value": "Nhánh  rẽ - với các ĐZ con\nTrục chính - với các XT ko có TBA 110kV\nTrục chính - Đầu nguồn - với các XT có TBA 110kV"
-            },
-            {
-              "name": "Điện áp cho phép",
-              "value": "Tùy theo xuất tuyến đang xét"
-            },
-            {
-              "name": "Tổng chiều dài",
-              "value": "Ko quan tâm, chương trình tự đồng bộ"
             },
             {
               "name": "Tổng số cột",
