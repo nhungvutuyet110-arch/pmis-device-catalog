@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:38:23.944Z",
+  "updatedAt": "2026-07-10T09:38:28.872Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -463,85 +463,6 @@
             {
               "name": "Chiều dài dây",
               "value": "0.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "deviceType": "Chống sét van (2235kV)",
-      "templates": [
-        {
-          "id": "pmis-cde343de20363104",
-          "name": "Hướng dẫn chung",
-          "attributes": [
-            {
-              "name": "Ngày vận hành",
-              "value": "Hồ sơ (BB nghiệm thu)"
-            },
-            {
-              "name": "Tình trạng vận hành",
-              "value": "Đang sử dụng"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nước sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Sở hữu",
-              "value": "Hồ sơ"
-            },
-            {
-              "name": "Năm sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị)"
-            },
-            {
-              "name": "Nhóm thực hiện CBM",
-              "value": "Chu trình CBM cho CSV 35kV hoặc 22kV tùy theo cấp điện áp"
-            },
-            {
-              "name": "Kiểu CS Van",
-              "value": "UHS ZnO"
-            },
-            {
-              "name": "U định mức",
-              "value": "48 cấp điện áp 35kV\n24 cấp điện áp 22kV"
-            },
-            {
-              "name": "I phóng định mức",
-              "value": "10"
-            },
-            {
-              "name": "Tần số định mức",
-              "value": "50"
-            },
-            {
-              "name": "UMCOV",
-              "value": "38.4 cấp 35kV\n19.2 cấp 22kV Protecktel; 19.5 Siemens"
-            },
-            {
-              "name": "Nơi lắp đặt",
-              "value": "Trên đường dây với CSV trên cột, Tại TBA với CSV ở trạm"
-            },
-            {
-              "name": "Chủng loại",
-              "value": "CSV ko có khe ở"
-            },
-            {
-              "name": "Số lượng",
-              "value": "1"
-            },
-            {
-              "name": "Hãng sản xuất",
-              "value": "Hồ sơ (lý lịch thiết bị hoặc hợp đồng thi công)\nPROTEKTEL\nSIEMENS"
-            },
-            {
-              "name": "Loại cách điện",
-              "value": "Hồ sơ (lý lịch thiết bị hoặc hợp đồng thi công)\nPolymer"
             }
           ]
         }
