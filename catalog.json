@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:40:13.242Z",
+  "updatedAt": "2026-07-11T02:12:01.564Z",
   "source": "Chuẩn hóa PMIS (1).xlsx",
   "devices": [
     {
@@ -1893,6 +1893,52 @@
             {
               "name": "Khối lượng",
               "value": "42.16"
+            }
+          ]
+        },
+        {
+          "id": "pmis-4e4b030f",
+          "name": "X1L - 3Đ",
+          "attributes": [
+            {
+              "name": "Loại xà",
+              "value": "Xà đỡ thẳng"
+            },
+            {
+              "name": "Kích thước",
+              "value": "2.3"
+            },
+            {
+              "name": "Khối lượng",
+              "value": "30.62"
+            },
+            {
+              "name": "Ngày vận hành",
+              "value": "Theo lý lịch"
+            },
+            {
+              "name": "Tình trạng vận hành",
+              "value": "Đang vận hành"
+            },
+            {
+              "name": "Nước sản xuất",
+              "value": "Việt Nam"
+            },
+            {
+              "name": "Sở hữu",
+              "value": "Theo lý lịch"
+            },
+            {
+              "name": "Năm sản xuất",
+              "value": "Theo lý lịch"
+            },
+            {
+              "name": "Hãng sản xuất",
+              "value": "Thuật Đạt"
+            },
+            {
+              "name": "Chiều dài",
+              "value": "2.3"
             }
           ]
         },
